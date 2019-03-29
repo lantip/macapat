@@ -24,19 +24,19 @@ Installation
 
 Usage
 ---
-    $ `python tembang_generator.py -h` to print help
+    $ python tembang_generator.py -h # to print help
     
     For macapat type, you can choose one of these:
-    `['gambuh', 'asmarandana', 'dhandhanggula', 'durma', 'jurudemung', 'kinanthi', 'maskumambang', 'megatruh', 'pangkur', 'pocung', 'sinom', 'wirangrong']`
+    ['gambuh', 'asmarandana', 'dhandhanggula', 'durma', 'jurudemung', 'kinanthi', 'maskumambang', 'megatruh', 'pangkur', 'pocung', 'sinom', 'wirangrong']
 
     So for example, you can run:
-    $ `python tembang_generator.py -t pocung`
+    $ python tembang_generator.py -t pocung
 
     To generate more than one stanza, you can define the number like so:
-    $ `python tembang_generator.py -t pocung -n 3`
+    $ python tembang_generator.py -t pocung -n 3
 
 Thanks To
 ---
-Paksi Raras Alit
-Mas Bekel Setya Amrih Prasaja
-Tim Behrend
+- Paksi Raras Alit
+- Mas Bekel Setya Amrih Prasaja
+- Tim Behrend
