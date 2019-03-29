@@ -1,0 +1,19 @@
+catatan tidak penting, hanya untuk cerita ke anak cucu besok
+
+
+
+kode ini adalah salah satu dari sekian yang saya bikin di otak saya ketika terkapar dengan suhu tubuh 40º selama dua atau tiga hari,
+saya membayangkan kalau saya mengumpulkan tembang-tembang di internet (salah satunya dari sastra.org yang sering saya kunjungi),
+saya bisa membikin models untuk men-generate macapat
+
+yang belum terwujud adalah kodingan untuk pos tagging (unsuppervised), sudah saya tuangkan kodenya tetapi ternyata masih banyak yang meleset.
+pos tagging dan ner saya perlukan untuk membuat kalimat yang lebih masuk akal, 
+tujuan akhirnya adalah babad generator
+
+saat ini baru milestones pertama, macapat generator sudah saya tuangkan. dari awal memang pendekatan yang saya bayangkan adalah markov-chain
+
+setelah saya tuangkan, saya kemudian mencari paper-paper pendukung dan library-library yang mungkin bisa dipakai
+saya dapatkan ada cltk yang sudah membuat semacam corpus dengan conllu format, juga polyglot yang sudah menyertakan word embeddings dan mampu
+mencari nearest neighbour tiap kata. mungkin nanti akan saya pakai
+
+demikian

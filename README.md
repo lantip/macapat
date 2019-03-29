@@ -37,6 +37,10 @@ Usage
     To generate more than one stanza, you can define the number like so:
     $ python tembang_generator.py -t pocung -n 3
 
+    Notes:
+    Jangan lupa membuat folder ./models
+    $ mkdir models
+
 Thanks To
 ---
 - Paksi Raras Alit
