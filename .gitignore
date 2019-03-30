@@ -2,4 +2,3 @@
 *.json
 *.pyc
 **/backup
-Pipfile*
