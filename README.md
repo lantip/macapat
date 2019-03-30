@@ -33,8 +33,10 @@ Usage
     $ python tembang_generator.py -h # to print help
     
     For macapat type, you can choose one of these:
-    ['gambuh', 'asmarandana', 'dhandhanggula', 'durma', 'jurudemung', 'kinanthi', 'maskumambang', 
-     'megatruh', 'pangkur', 'pocung', 'sinom', 'wirangrong']
+    ['maskumambang', 'mijil', 'sinom', 'kinanthi', 'asmarandana', 'gambuh', 'dhandhanggula', 'durma',
+     'pangkur', 'megatruh', 'pocung', 'jurudemung', 'wirangrong']
+
+    catatan: jurudemung dan wirangrong masuknya sekar madya, bukan macapat
 
     So for example, you can run:
     $ python tembang_generator.py -t pocung

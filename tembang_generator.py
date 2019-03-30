@@ -157,7 +157,8 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser(formatter_class=argparse.MetavarTypeHelpFormatter, description='''Generator Macapat.
         Jenis Tembang Macapat yang bisa digenerate:
-        ['gambuh', 'asmarandana', 'dhandhanggula', 'durma', 'jurudemung', 'kinanthi', 'maskumambang', 'megatruh', 'pangkur', 'pocung', 'sinom', 'wirangrong']''')
+        ['maskumambang', 'mijil', 'sinom', 'kinanthi', 'asmarandana', 'gambuh', 'dhandhanggula', 'durma',
+          'pangkur', 'megatruh', 'pocung', 'jurudemung', 'wirangrong']''')
 
     parser.add_argument('-t', '--tipe', type=str, help="Nama/jenis tembang macapat yang ingin digenerate", required=True)
     parser.add_argument('-n', '--number', type=int, default="1", help="Jumlah bait yang ingin digenerate")
