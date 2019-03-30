@@ -26,10 +26,15 @@ Installation
 
 Usage
 ---
+    Notes:
+    Jangan lupa membuat folder ./models
+    $ mkdir models
+
     $ python tembang_generator.py -h # to print help
     
     For macapat type, you can choose one of these:
-    ['gambuh', 'asmarandana', 'dhandhanggula', 'durma', 'jurudemung', 'kinanthi', 'maskumambang', 'megatruh', 'pangkur', 'pocung', 'sinom', 'wirangrong']
+    ['gambuh', 'asmarandana', 'dhandhanggula', 'durma', 'jurudemung', 'kinanthi', 'maskumambang', 
+     'megatruh', 'pangkur', 'pocung', 'sinom', 'wirangrong']
 
     So for example, you can run:
     $ python tembang_generator.py -t pocung
@@ -37,9 +42,7 @@ Usage
     To generate more than one stanza, you can define the number like so:
     $ python tembang_generator.py -t pocung -n 3
 
-    Notes:
-    Jangan lupa membuat folder ./models
-    $ mkdir models
+
 
 Thanks To
 ---
@@ -47,4 +50,4 @@ Thanks To
 - Mas Bekel Setya Amrih Prasaja
 - Tim Behrend 
 - [sastra.org](https://www.sastra.org) -- for the corpus
-- Wesley (https://twitter.com/pengelana) -- for suggestion using get
+- [Wesley](https://twitter.com/pengelana) -- for suggestion using get
