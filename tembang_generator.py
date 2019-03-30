@@ -43,16 +43,16 @@ def syllable_count(word):
     More simple way is just count the vowels, 
     but I choose this method in case I'm gonna add some rules here
     '''
-    word = word.lower()
-    count = 0
+    words = word.lower()
     vowels = "aeiouéèê"
-    if word[0] in vowels:
-        count += 1
-    for index in range(1, len(word)):
-        if word[index] in vowels:
-            count += 1
-    if count == 0:
-        count += 1
+    wdict = {}
+    get = wdict.get
+    for wrd in words:
+        if wrd in vowels:
+            wdict[word] = get(word, 0) + 1
+    count = sum(wdict.values())
+    if count < 1:
+        count = 1
     return count
 
 

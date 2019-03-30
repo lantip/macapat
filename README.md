@@ -45,5 +45,6 @@ Thanks To
 ---
 - Paksi Raras Alit
 - Mas Bekel Setya Amrih Prasaja
-- Tim Behrend
-- [sastra.org](https://www.sastra.org)
+- Tim Behrend 
+- [sastra.org](https://www.sastra.org) -- for the corpus
+- Wesley (https://twitter.com/pengelana) -- for suggestion using get
