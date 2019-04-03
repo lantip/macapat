@@ -12,6 +12,7 @@ import markovify
 import random
 import os
 import json
+from latintojavanese import dotransliterate
 
 def load_model(tipe):
     '''
@@ -170,8 +171,15 @@ if __name__ == '__main__':
 
     if number:
         for i in range(int(number)):
-            print(generate_tembang(tipe))
+            tembang = generate_tembang(tipe)
+            print(tembang)
             print('\n')
+            for tmb in tembang.split('\n'):
+                print(dotransliterate(tmb))
     else:
-        print(generate_tembang(tipe))
+        tembang = generate_tembang(tipe)
+        print(tembang)
+        print('\n')
+        for tmb in tembang.split('\n'):
+            print(dotransliterate(tmb))
 
