@@ -52,6 +52,8 @@ wcwidth = "==0.1.7"
 webencodings = "==0.5.1"
 "xhtml2pdf" = "==0.2.2"
 requests = "*"
+textblob = "*"
+markovify = "*"
 
 [dev-packages]
 

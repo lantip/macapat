@@ -173,13 +173,13 @@ if __name__ == '__main__':
         for i in range(int(number)):
             tembang = generate_tembang(tipe)
             print(tembang)
-            print('\n')
             for tmb in tembang.split('\n'):
                 print(dotransliterate(tmb))
+            print('\n')
     else:
         tembang = generate_tembang(tipe)
         print(tembang)
-        print('\n')
         for tmb in tembang.split('\n'):
             print(dotransliterate(tmb))
+        print('\n')
 
